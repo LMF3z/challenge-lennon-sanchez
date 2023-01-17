@@ -1,0 +1,157 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* colors */
+
+  --border-card: #3b3b3b;
+  --text-card-description-color: #a1a1a1;
+
+  --color-price-content: #a4a5a5;
+
+  --button-color: rgba(233,214,227,255);
+  --button-border-color: #030101;
+  --button-text-color: #070b16;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.8rem;
+  background-color: var(--button-color);
+  border: 1px solid var(--button-border-color);
+  color: var(--button-text-color);
+}
+
+.app {
+  padding: 1rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container-result-list {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+.product-card {
+  display: grid;
+  gap: 0.5rem;
+  justify-content: center;
+
+  text-align: start;
+
+  padding: 1.8rem 1rem;
+  border: solid 2px var(--border-card);
+
+  box-sizing: border-box;
+}
+
+.product-card > img {
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 20vh;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .app {
+    padding: 2rem;
+  }
+
+  .product-card {
+    padding: 1.8rem 1.5rem;
+  }
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card-title > h2 {
+  font-weight: bold;
+}
+
+.card-title > input {
+  width: 95%;
+  height: 25px;
+
+  border: 1px solid var(--color-price-content);
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.card-title img {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.product-card > p {
+  color: var(--text-card-description-color)
+}
+
+.product-card > button {
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.product-card > a {
+  margin: 0 auto;
+  color: var(--button-text-color);
+}
+
+.card-price {
+  font-weight: bold;
+  max-height: 30px;
+  display: flex;
+}
+
+.card-price > input {
+  width: 40px;
+  height: 80%;
+  margin-left: 0.5rem;
+  border: 1px solid var(--color-price-content);
+  outline: none;
+
+  color: var(--color-price-content);
+}
+
+.container-products-total {
+  margin-top: 0.5rem;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container-products-total > label {
+  margin-right: 0.5rem;
+}
+
+.container-products-total > div {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid var(--button-border-color) 1px;
+}

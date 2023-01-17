@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "image": "https://picsum.photos/200",
+        "title": "tourmaline & eucalyptus bar soup",
+        "price": 12,
+        "description": "Recharge your skin with the super energizing power of finely crushed tourmaline powder blended with natural complexion",
+        "possible_price": 12,
+        "amount": 1
+    },
+    {
+        "id": 2,
+        "image": "https://picsum.photos/200",
+        "title": "tourmaline & argon oil bar soup",
+        "price": 12,
+        "description": "Recharge your skin with the super energizing power of finely crushed tourmaline powder blended with natural complexion",
+        "possible_price": 12,
+        "amount": 1
+    },
+    {
+        "id": 3,
+        "image": "https://picsum.photos/200",
+        "title": "tourmaline & tea tree bar soup",
+        "price": 12,
+        "description": "Recharge your skin with the super energizing power of finely crushed tourmaline powder blended with natural complexion",
+        "possible_price": 12,
+        "amount": 1
+    },
+    {
+        "id": 4,
+        "image": "https://picsum.photos/200",
+        "title": "tourmaline unscented bar soup",
+        "price": 12,
+        "description": "Recharge your skin with the super energizing power of finely crushed tourmaline powder blended with natural complexion",
+        "possible_price": 12,
+        "amount": 1
+    },
+    {
+        "id": 5,
+        "image": "https://picsum.photos/200",
+        "title": "tourmaline & tea tree bar soup",
+        "price": 12,
+        "description": "Recharge your skin with the super energizing power of finely crushed tourmaline powder blended with natural complexion",
+        "possible_price": 12,
+        "amount": 1
+    },
+    {
+        "id": 6,
+        "image": "https://picsum.photos/200",
+        "title": "tourmaline unscented bar soup",
+        "price": 12,
+        "description": "Recharge your skin with the super energizing power of finely crushed tourmaline powder blended with natural complexion",
+        "possible_price": 12,
+        "amount": 1
+    }
+]
